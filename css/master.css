@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,12 +10,12 @@
   line-height: 1.5;
 }
 
-body{
+body {
   background: #333;
   overflow: hidden;
 }
 
-header{
+header {
   background: #333;
   height: 15vh;
   display: flex;
@@ -23,13 +23,13 @@ header{
   padding: 0 20px;
 }
 
-header>h1{
+header>h1 {
   color: #fff;
   font-size: 30px;
   font-weight: normal;
 }
 
-main{
+main {
   /* background-color: #333; */
   height: 70vh;
   width: 100%;
@@ -39,29 +39,53 @@ main{
   justify-content: space-around;
   background-color: #000;
 }
-.info{
-  width:55%;
-  padding: 20px;  
+
+.info {
+  width: 55%;
+  padding: 20px;
 }
 
-#visual{
+.info p {
+  color: #999;
+  max-width: 700px;
+}
+
+.planet-desc {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.planet-desc h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#visual {
   background-image: url('../res/planet02.jpg');
   background-repeat: no-repeat;
-  background-size: fill;
+  background-size: cover;
   /* background-color: #333; */
   width: 45%;
   height: 70vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px;
 }
 
-footer{
+#visual>i {
+  font-size: 50px;
+}
+
+footer {
   background: #333;
   height: 15vh;
 }
-footer>h3{
+
+footer>h3 {
   font-size: 20px;
   font-weight: 300;
   color: #fff;
+  padding: 20px;
 }
