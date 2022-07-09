@@ -43,10 +43,11 @@ main {
 .info {
   width: 55%;
   padding: 20px;
+  background-image: linear-gradient(to right, #fff, #000);
 }
 
 .info p {
-  color: #999;
+  color: #000;
   max-width: 700px;
 }
 
@@ -62,10 +63,10 @@ main {
 }
 
 #visual {
-  background-image: url('../res/planet02.jpg');
+  /* background-image: url('../res/planet02.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background-color: #333; */
+  background-size: fill; */
+  /* background-color: #111; */
   width: 45%;
   height: 70vh;
   display: flex;
@@ -76,6 +77,17 @@ main {
 
 #visual>i {
   font-size: 50px;
+  cursor: pointer;
+}
+
+#visual>i:hover {
+  color: #444;
+}
+
+#visual>img {
+  width: auto;
+  height: 100%;
+  /* object-fit: fill; */
 }
 
 footer {
